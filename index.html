@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Input Data</title>
+</head>
+<body>
+
+    <form id="inputForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" value="Ardhaniwinata" required>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" value="2023806087" required>
+
+        <label for="prodi">Prodi:</label>
+        <input type="text" id="prodi" name="prodi" value="Teknologi Informasi" required>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
